@@ -1,0 +1,142 @@
+﻿@page
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luz Ingá - Página Inicial</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="site.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-orange">
+            <div class="container">
+                <a class="navbar-brand" href="#">Luz Ingá</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="/img/carousel1.jpg" alt="Primeiro slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="/img/carousel2.jpg" alt="Segundo slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="/img/carousel3.jpg" alt="Terceiro slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+
+    <section class="banner">
+        <div class="container">
+            <h2>Sobre a Luz Ingá</h2>
+            <p></p>
+            <p></p>
+            <p> Há mais de uma década, a Luz Ingá tem sido uma referência no setor de serviços elétricos, deixando sua marca de excelência e comprometimento por onde passa. Desde o seu início modesto até se tornar uma das empresas mais respeitadas da região, a Luz Ingá construiu sua reputação com base em valores sólidos, trabalho árduo e dedicação inabalável aos seus clientes.</p>
+            <p> Ao longo desses anos, nossa equipe de profissionais altamente qualificados tem sido o coração pulsante de nossa empresa. Com uma vasta experiência e conhecimento técnico de ponta, eles não apenas realizam serviços elétricos, mas também oferecem soluções personalizadas que atendem às necessidades específicas de cada cliente. Seja para residências ou empresas, nosso compromisso é garantir qualidade, segurança e eficiência em todos os projetos que realizamos.</p>
+            <p> Nossa jornada tem sido marcada por uma busca constante pela inovação e aprimoramento. Investimos em tecnologia de ponta e técnicas de última geração para garantir que nossos clientes recebam os melhores serviços e soluções disponíveis no mercado. Além disso, mantemos um rigoroso padrão de qualidade e segurança em todas as nossas operações, garantindo a tranquilidade e a satisfação de nossos clientes.</p>
+            <p> Ao longo dos anos, expandimos nossas operações e ampliamos nossa gama de serviços para atender às crescentes demandas do mercado. Hoje, oferecemos uma variedade de serviços, desde instalações elétricas e manutenção de redes até consultoria e automação residencial. Nosso objetivo é ser a primeira escolha de nossos clientes quando se trata de serviços elétricos, proporcionando-lhes uma experiência excepcional do início ao fim.</p>
+            <p> Além do nosso compromisso com a excelência técnica, também nos orgulhamos de nosso compromisso com a comunidade e o meio ambiente. Participamos ativamente de iniciativas de responsabilidade social e buscamos constantemente maneiras de reduzir nosso impacto ambiental. Acreditamos que, ao agir de forma responsável e ética, podemos contribuir para um futuro melhor para todos.</p>
+            <p> Em resumo, a Luz Ingá é muito mais do que uma empresa de serviços elétricos. Somos uma equipe dedicada de profissionais apaixonados pelo que fazem, comprometidos em fornecer soluções de alta qualidade e deixar um legado positivo em tudo o que fazemos. Estamos ansiosos para continuar nossa jornada e servir nossos clientes com excelência nos próximos anos.</p>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="service-item">
+                        <img src="/img/instalacao_eletrica.jpg" alt="Instalação Elétrica">
+                        <p>Instalação Elétrica</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="service-item">
+                        <img src="/img/manutencao_redes.jpg" alt="Manutenção de Redes">
+                        <p>Manutenção de Redes</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="service-item">
+                        <img src="/img/projeto_consultoria.jpg" alt="Projeto e Consultoria">
+                        <p>Projeto e Consultoria</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="service-item">
+                        <img src="/img/automacao_residencial.jpg" alt="Automação Residencial">
+                        <p>Automação Residencial</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container2">
+        <form action="#" method="post" class="contact-form" id="contactForm">
+            <h2>Solicite um Orçamento</h2>
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <section class="about">
+            <h2></h2>
+            <p>A Luz Ingá é uma empresa especializada em serviços elétricos, atuando no mercado há mais de 10 anos.</p>
+        </section>
+
+        <footer class="bg-orange rounded-top full-width">
+            <p>&copy; 2024 Luz Ingá. Todos os direitos reservados.</p>
+        </footer>
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
